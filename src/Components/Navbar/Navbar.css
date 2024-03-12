@@ -1,0 +1,55 @@
+.nav-container {
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 35px;
+    font-family: gumela;
+    position: sticky;
+    /*background-color: palevioletred;*/
+}
+.left-nav-section {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+.nav-name {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+/* nav-container right side css */
+
+
+.right-nav-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 400;
+}
+.sub-right-nav-section > ul {
+    display: flex;
+    gap: 2rem;
+    margin-right: 4rem;
+    list-style-type: none;
+}
+.sub-right-nav-section > ul > li:hover {
+    cursor: pointer;
+    color: orangered;
+}
+
+.right-nav-section > button {
+    border-radius: 34px;
+    border: none;
+    font-size: 16px;
+    padding: 10px 12px;
+    background-color: orange;
+    margin-right: 2rem;
+    color: white;
+}
+
+.right-nav-section > button:hover {
+    cursor: pointer;
+    background-color: white;
+    color: orangered;
+    border: 1px solid orangered;
+}

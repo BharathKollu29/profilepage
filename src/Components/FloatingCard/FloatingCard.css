@@ -1,0 +1,19 @@
+.floatingcard-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: white;
+    box-shadow: 1px 1px 1px 1px gray;
+    border-radius: 17px;
+    padding: 10px 20px;
+    height: 4.2rem;
+}
+.floatingcard-container > img {
+    height: 45px;
+    width: 45px;
+    margin-right: 10px;
+}
+.floatingcard-container > span {
+    font-family: sans-serif;
+    font-size: 16px;
+}

@@ -1,0 +1,68 @@
+
+.services-container {
+    height: 85vh;
+    width: 100vw;
+    margin-top: 1rem;
+    display: flex;
+    /*background-color: aquamarine;*/
+
+}
+.services-left-section {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    font-family: gumela;
+    margin-left: 3rem;
+    padding-top: 8rem;
+}
+.services-left-section > :nth-child(1) {
+    color: black;
+    font-size: 3rem;
+    font-family: gumela;
+    font-weight: bold;
+}
+.services-left-section > :nth-child(2) {
+    color: orange;
+    font-size: 2.5rem;
+    font-family: gumela;
+    font-weight: bold;
+}
+.services-left-section > :nth-child(3) {
+    color: gray;
+    font-size: 14px;
+    font-family: gumela;
+    margin-top: 6px;
+}
+
+
+.services-button {
+    height: 35px;
+    width: 150px;
+    border-radius: 34px;
+    font-size: 16px;
+    background-color: orange;
+    color: white;
+    position: relative;
+    margin-top: 2rem;
+    border: none;
+}
+.services-button:hover {
+    cursor: pointer;
+    background-color: white;
+    color: orangered;
+    border: 1px solid orangered;
+}
+
+
+
+.services-right-section {
+    flex: 1;
+    position: relative;
+}
+.services-right-section > * {
+    position: absolute;
+}
+
+
+
+    

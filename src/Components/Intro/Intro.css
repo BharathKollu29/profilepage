@@ -1,0 +1,96 @@
+
+.into-container {
+    height: 68vh;
+    width: 100vw;
+    margin-top: 6rem;
+    display: flex;
+    /*background-color: lawngreen;*/
+}
+.intro-left-section {
+    display: flex;
+    flex-direction: column;
+    font-family: gumela;
+    margin-left: 3rem;
+}
+.intro-left-section > :nth-child(1) {
+    color: black;
+    font-weight: bold;
+    font-size: 3rem;
+}
+.intro-left-section > :nth-child(2) {
+    color: orange;
+    font-weight: bold;
+    font-size: 3rem;
+}
+.intro-left-section > :nth-child(3) {
+    color: gray;
+    font-weight: 100;
+    font-size: 15px;
+    margin-top: 10px;
+}
+.into-button {
+    height: 2rem;
+    width: 6rem;
+    margin-top: 2rem;
+    border-radius: 34px;
+    border: none;
+    font-size: 16px;
+    background-color: orange;
+    color: white;
+}
+.into-button:hover {
+    cursor: pointer;
+    background-color: white;
+    color: orangered;
+    border: 1px solid orangered;
+}
+.into-left-icons > * {
+    margin-top: 2rem;
+    font-size: 2rem;
+    margin-right: 1rem;
+    cursor: pointer;
+}
+.into-left-icons > :nth-child(1) {
+    color: red;
+}
+.into-left-icons > :nth-child(2) {
+    color: blue;
+}
+.into-left-icons > :nth-child(3) {
+    color: green;
+}
+
+
+
+
+
+/* intro  right section css */
+
+.intro-right-section {
+    flex: 1;
+    position: relative;
+}
+.intro-right-section>* {
+    position: absolute;
+}
+.intro-right-section > :nth-child(1) {
+    transform: scale(0.69);
+    left: -9%;
+    top: -15%;
+}
+.intro-right-section > :nth-child(2) {
+    transform: scale(0.67);
+    left: -3rem;
+    right: -4.6rem;
+    top: -5rem;
+}
+.intro-right-section > :nth-child(3) {
+    transform: scale(1.4);
+    left: 28%;
+}
+.intro-right-section > :nth-child(4) {
+    height: 120px;
+    width: 140px;
+    top: -2rem;
+    left: -2rem;
+}

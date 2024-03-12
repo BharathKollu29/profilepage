@@ -1,0 +1,38 @@
+.footer-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 50vh;
+    width: 100vw;
+    margin-top: 2rem;
+    /*background-color: palevioletred;*/
+}
+.footer-image {
+    height: 450px;
+    width: 100vw;
+}
+.footer-content {
+    position: absolute;
+    margin-top: 13rem;
+
+}
+.footer-heading {
+    color: white;
+}
+.footer-icons {
+    display: flex;
+    margin-top: 1.5rem;
+    gap: 2rem;
+    font-size: 28px;
+    margin-left: 1rem;
+}
+.footer-icons > :nth-child(1) {
+    color: red;
+}
+.footer-icons > :nth-child(2) {
+    color: blue;
+}
+.footer-icons > :nth-child(3) {
+    color: green;
+}

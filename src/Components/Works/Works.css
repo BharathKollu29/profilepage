@@ -1,0 +1,115 @@
+
+.works-container {
+    height: 55vh;
+    width: 100vw;
+    margin-top: 2rem;
+    display: flex;
+    padding-top: 30px;
+    /*background-color: aquamarine;*/
+
+}
+.works-left-section {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    font-family: gumela;
+    margin-left: 3rem;
+    padding-top: 6rem;
+}
+.works-left-section > :nth-child(1) {
+    color: black;
+    font-size: 3rem;
+    font-family: gumela;
+    font-weight: bold;
+}
+.works-left-section > :nth-child(2) {
+    color: orange;
+    font-size: 2.5rem;
+    font-family: gumela;
+    font-weight: bold;
+}
+.works-left-section > :nth-child(3) {
+    color: gray;
+    font-size: 14px;
+    font-family: gumela;
+    margin-top: 6px;
+}
+
+
+.works-button {
+    height: 35px;
+    width: 150px;
+    border-radius: 34px;
+    font-size: 16px;
+    background-color: orange;
+    color: white;
+    position: relative;
+    margin-top: 2rem;
+    border: none;
+}
+.works-button:hover {
+    cursor: pointer;
+    background-color: white;
+    color: orangered;
+    border: 1px solid orangered;
+}
+
+
+/* right section */
+
+.works-right-section {
+    flex: 1;
+    position: relative;
+}
+.outer-circle {
+    position: relative;
+    height: 18rem;
+    width: 19rem;
+    border-radius: 100%;
+    top: 2rem;
+    left: 9rem;
+    background-color: white;
+    border: 1px solid gray;
+
+}
+.outer-circle > * {
+    position: absolute;
+}
+
+.outer-circle > :nth-child(1) {
+    top: -3rem;
+    left: 6rem;
+}
+.outer-circle > :nth-child(2) {
+    top: 7rem;
+    left: -2.5rem;
+}
+.outer-circle > :nth-child(3) {
+    top: 6rem;
+    left: 6.5rem;
+}
+.outer-circle > :nth-child(4) {
+    top: 14.5rem;
+    left: 7rem;
+}
+.outer-circle > :nth-child(5) {
+    top: 6rem;
+    left: 15rem;
+}
+
+.inner-circle {
+    position: absolute;
+    height: 6rem;
+    width: 6rem;
+    border-radius: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 5px solid #ebebeb;
+    border: 1px solid gray;
+}
+.inner-circle > img {
+    transform: scale(0.4);
+}
+
